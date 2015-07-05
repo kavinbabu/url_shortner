@@ -23,7 +23,9 @@ SECRET_KEY = 't(f0b6wm!yj$olte=ot-_=m60iq8kjta$gp$3nr-87cig4v$=x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+from url_shortner.templates import TEMPLATE_DIRS
 TEMPLATE_DEBUG = True
+TEMPLATE_DIRS = TEMPLATE_DIRS
 
 ALLOWED_HOSTS = []
 
